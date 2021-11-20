@@ -1,0 +1,200 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+*{
+    margin:0px;
+    padding:0px;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+header#top-menu {
+    background-color: #0494cb;
+    color: white;
+}
+
+.container {
+    width: 1080px;
+    /* border: 1px solid #0e0e0e; */
+    margin: auto;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.contain-wrap {
+    overflow: hidden;
+}
+
+.logo-h {
+    width: 389px;
+    display: block;
+}
+
+.logo-h h1 {
+    
+    display: block;
+    font-size: 35px;
+    font-weight: 600;
+    float: left;
+    text-decoration: none;
+    color: white;
+}
+
+.top-social {
+    width: 171px;
+    float: right;
+}
+
+.top-social a {
+    text-decoration: none;
+    display: block;
+    float: left;
+    padding: 12px;
+    color: white;
+    font-size: 18px;
+   
+}
+.top-social a i{
+    transition: .3s;
+}
+
+.top-social a i:hover{
+    color: rgb(189, 189, 189) ;
+}
+.main-menu {
+    width: 534px;
+    display: block;
+    /* border: 1px solid; */
+    position: relative;
+}
+
+.main-menu ul {
+    list-style: none;
+    display: block;
+}
+
+.main-menu ul li a {
+    text-decoration: none;
+    display: block;
+    float: left;
+    padding: 20px;
+    color: black;
+    text-transform: uppercase;
+    transition: .3s;
+}
+.main-menu ul li a:hover{
+    color: #0494CB;
+}
+
+.btn {
+    float: right;
+    width: 239px;
+    padding: 24px;
+}
+
+.btn button {
+    border: none;
+    background-color: #0494CB;
+    display: block;
+    float: left;
+    width: 119px;
+    height: 30px;
+    border-radius: 18px;
+    color: white;
+    font-weight: 800;
+    cursor: pointer;
+    transition: .4s;
+}
+
+.btn button:hover{
+    background-color: #fff;
+    color: #0494CB;
+}
+.sir {
+    width: 260px;
+    float: left;
+    text-align: center;
+    font-size: 75px;
+    color: #0494CB;
+    background-color: #ffffff;
+    padding-top: 16px;
+    cursor: pointer;
+    margin-bottom: 20px;
+    transition: .3s;
+}
+.sir:hover{
+    background-color: #0494CB;
+    color: white;
+}
+.princpol{
+    margin-right: 13px;
+}
+.sir span {
+    font-size: 20px;
+    text-transform: capitalize;
+    display: block;
+    padding-top: 7px;
+    padding-bottom: 80px;
+}
+
+.sir h2 {
+    font-size: 22px;
+    text-transform: uppercase;
+    display: block;
+}
+
+section#info-card {}
+
+section#info-card {
+    background-color: #f3f3f3;
+}
+
+.main-card {
+    margin-top: 35px;
+}
+
+.card-1 {
+    background-color: #0494CB;
+    color: white;
+    transition: .3s;
+}
+.card-1:hover{
+    background-color: white;
+    color: #0494CB;
+}
+img:first-child {
+    margin-right: 104px;
+}
+
+.image-school {
+    /* background-color: aliceblue; */
+    cursor: pointer;
+    margin-bottom: 20px;
+}
+
+section#libarary {
+    background-color: aliceblue;
+}
+.my-info {
+    background-color: white;
+    justify-content: center;
+}
+
+.my-info img {justify-content: center;display: block;padding-left: 286px;padding-bottom: 20px;padding-top: 20px;}
+
+.my-info h1 {
+    text-align: center;
+    padding-right: 26px;
+    padding-top: 20px;
+    font-weight: 100;
+    font-family: 'Dancing Script', cursive;
+}
+
+.my-info span {
+    display: block;
+    text-align: center;
+    font-weight: 100;
+    padding-right: 27px;
+    letter-spacing: 4px;
+}
+section#book {
+    background-color: #7b7b7b;
+    margin-top: 15px;
+}
